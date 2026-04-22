@@ -1,0 +1,15 @@
+// ltl-cgroup-read/main.ltl
+//
+// cgroup v2 stat reader for CPU / memory / io.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-cgroup-read v0.1.0")
+    io::println("cgroup v2 stat reader for CPU / memory / io.")
+    0
+}
